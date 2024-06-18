@@ -37,7 +37,7 @@ const Contact = () => {
         'template_esa0j7m',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Manpreet Singh",
           from_email: form.email,
           to_email: "sujata@jsmastery.pro",
           message: form.message,
