@@ -21,6 +21,7 @@ import {
     shopify,
     carrent,
     jobit,
+    gri,
     tripguide,
     threejs,
   } from "../assets";
@@ -37,6 +38,11 @@ import {
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id:"resume",
+      title: "Resume",
+      link: "https://drive.google.com/file/d/1Ki6a19MCDUlkdSISvw-JqQbYclGkviBn/view",
     },
   ];
   
@@ -116,57 +122,45 @@ import {
   
   const experiences = [
     {
-      title: "Frontend Developer",
-      company_name: "notyourSocial",
-      icon: starbucks,
+      title: "Web Developer Intern",
+      company_name: "Gro Globally",
+      icon: gri,
       iconBg: "#383E56",
-      date: "May 2023 - July 2023",
+      date: "May 2024 - Present",
       points: [
-        "Developing and maintaining web applications using HTMl,CSS, Javascript and other related technologies.",
+        "Led the complete redesign and rebuild of Gro Globally’s website, implementing a user-friendly interface that enhanced user experience and increased client engagement by 30%.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Streamlined a responsive video playback feature for web pages using the React Video Player component, providing aseamless and user-friendly media experience.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Freelance Developer",
+      title: "Mern Chat app",
       company_name: "Various",
-      icon: tesla,
+      icon: mongodb,
       iconBg: "#E6DEDD",
-      date: "August 2023 - OCt 2023",
+      date: "April 2024  - May 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Applied frontend development best practices for a polished and user-friendly website using react.js",
+        "Spearheaded private chat feature and smooth and seamless file sharing and login/register features for users.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Employed Express.js as the backend framework to handle API requests and manage Socket.IO connections.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Various",
+      title: "Gen-Z Drips",
+      company_name: "Private",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Nov 2023 - Dec 2023",
+      date: "Feb 2024 - March 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        " Ensured seamless functioning of the website and designed different sections for kids, women and men. Utilised contextAPI for state management.",
+        " Utilized React hooks like useState,useEffect for managing application state, ensured amount calculation and promocodes application.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Integrated functionalities like add to cart, remove from cart, and browse different product categories.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Private",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2024 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
